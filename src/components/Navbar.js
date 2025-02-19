@@ -5,27 +5,27 @@ import PropTypes from 'prop-types'
 
 export default function Navbar(props){
   return (
-   <nav classNameName={`navbar navbar-expand-lg navbar-${props.mode} bg-dark`}>
-   <div classNameName="container-fluid">
-    <a classNameName="navbar-brand" href="#">{props.title}</a>
-    <button classNameName="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span classNameName="navbar-toggler-icon"></span>
+   <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-dark`}>
+   <div className="container-fluid">
+    <a className="navbar-brand" href="#">{props.title}</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div classNameName="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul classNameName="navbar-nav me-auto mb-2 mb-lg-0">
-        <li classNameName="nav-item">
-          {/* <Link classNameName="nav-link active" aria-current="page" to="/">Home</Link> */}
-          <a classNameName="nav-link active" aria-current="page" href="#">Home</a>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          {/* <Link className="nav-link active" aria-current="page" to="/">Home</Link> */}
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        {/* <li classNameName="nav-item">
-          <Link classNameName="nav-link active" aria-current="page" to="/about">aboutText</Link>
+        {/* <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/about">aboutText</Link>
         </li> */}
         
         
         
       </ul>
-      {/* <form classNameName="d-flex" role="search">
-        <input classNameName="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      {/* <form className="d-flex" role="search">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button type="button" className="btn btn-info" >Search</button>
          */}
       {/* </form> */}
